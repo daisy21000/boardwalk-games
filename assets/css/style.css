@@ -102,6 +102,11 @@ h2 {
     color: var(--secondary-color);
 }
 
+#contact .table-dark * {
+    background-color: transparent;
+    transition: all 0.1s;
+}
+
 /* grid visualisation CSS for testing */
 
 /* .container,
