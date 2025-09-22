@@ -45,6 +45,8 @@ h2 {
     border: 2px solid var(--highlight-color);
     background-color: var(--highlight-color);
     color: white;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 
@@ -53,6 +55,8 @@ h2 {
     background-color: transparent;
     color: var(--highlight-color);
     border: 2px solid var(--highlight-color);
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 
@@ -94,6 +98,8 @@ h2 {
 
 /* Events */
 #events .table * {
+    -webkit-transition: all 0.1s;
+    -o-transition: all 0.1s;
     transition: all 0.1s;
     font-size: 0.8rem;
 }
@@ -144,6 +150,8 @@ h2 {
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
 }
 
@@ -153,20 +161,10 @@ h2 {
 
 #contact .table-dark * {
     background-color: transparent;
+    -webkit-transition: all 0.1s;
+    -o-transition: all 0.1s;
     transition: all 0.1s;
 }
-
-/* grid visualisation CSS for testing */
-
-/* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
 
 /* Media Queries */
 
