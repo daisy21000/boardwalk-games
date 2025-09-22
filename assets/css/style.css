@@ -13,6 +13,7 @@
 /* Global Styles */
 body {
     font-family: var(--primary-font);
+    padding-top: 57.15px; /* Height of navbar */
 }
 
 h1,
