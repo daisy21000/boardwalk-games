@@ -92,6 +92,28 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+#events .table * {
+    transition: all 0.1s;
+    font-size: 0.8rem;
+}
+
+#student-discount {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    background-color: var(--highlight-color);
+    width: 100%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px 0;
+}
+
+#events .custom-button-outline {
+    width: 135px;
+}
+
 /* Game Library */
 #new-games .card,
 #fav-games .card {
